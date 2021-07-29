@@ -9,14 +9,14 @@ const fs = require("fs");
 global.XMLHttpRequest = require("xhr2");
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBEqbuKUfP9cKJVsgiM9MaMy1vo3h_BGvQ",
-  authDomain: "gorurhat-21d58.firebaseapp.com",
-  databaseURL: "https://gorurhat-21d58.firebaseio.com",
-  projectId: "gorurhat-21d58",
-  storageBucket: "gorurhat-21d58.appspot.com",
-  messagingSenderId: "66815878125",
-  appId: "1:66815878125:web:7a04275dbd261fe8fc7de4",
-  measurementId: "G-YWL2M1156X",
+   apiKey: process.env.FIREBASE_API_KEY,
+  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+  databaseURL: process.env.FIREBASE_DATABASE_URL,
+  projectId: process.env.FIREBASE_PROJECT_ID,
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.FIREBASE_API_KEY,
+  appId: process.env.FIREBASE_APP_ID,
+  measurementId: process.env.FIREBASE_MEASUREMENT_ID,
 };
 const fireapp = firebase.initializeApp(firebaseConfig);
 
