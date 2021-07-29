@@ -1,0 +1,31 @@
+{
+  "name": "gorurhat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "maruf",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "blob": "^0.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "file-api": "^0.10.4",
+    "firebase": "^7.17.1",
+    "helmet": "^3.23.3",
+    "imgbb-uploader": "^1.0.3",
+    "mongoose": "^5.9.26",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "xhr2": "^0.2.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
